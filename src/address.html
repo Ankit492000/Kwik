@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-10/css/all.css" />
+    <link rel="stylesheet" href="css/styleAddress.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Address - Kwik customize</title>
+</head>
+<body>
+    
+  <div class="container sticky">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index2.html"><img src="img/logo.png" alt="..." width="125px"></a>
+        </div>
+    </div>
+  </div>
+
+    <!--Container for address confirmation-->
+    <div class="container card">
+        <form class="row g-3" action="/add" method="post">
+            <div class="d-flex justify-content-between">
+              <i class="fas fa-arrow-left formHeader"></i>
+              <h1 class="formHeader">Confirm Address</h1>
+              <p></p>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="fname" type="text" class="form-control bg-transparent  shadow-none" id="inputFname" placeholder="first name" required>
+              <label for="inputFname"  >First Name</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="lname" type="text" class="form-control bg-transparent  shadow-none" id="inputLname" placeholder="last name" required>
+              <label for="inputLname" >Last Name</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="email" type="email" class="form-control bg-transparent  shadow-none" id="inputEmail" placeholder="email" required>
+              <label for="inputEmail" >Email</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="pnumber" type="number" class="form-control bg-transparent  shadow-none" id="inputMobile" placeholder="mobile" required>
+              <label for="inputMobile">Mobile No.</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="add" type="text" class="form-control bg-transparent  shadow-none" id="inputAddress" placeholder="address" required>
+              <label for="inputAddress">Address</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="state" type="text" class="form-control bg-transparent  shadow-none" id="inputState" placeholder="state" required>
+              <label for="inputState">State</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="city" type="text" class="form-control bg-transparent  shadow-none" id="inputCity" placeholder="city" required>
+              <label for="inputCity">City</label>
+            </div>
+            <div class="form-floating col-md-6">
+              <input name="pin" type="number" class="form-control bg-transparent  shadow-none" id="inputPinNo" placeholder="pin number" required>
+              <label for="inputCity" >PIN no.</label>
+            </div>
+            <div class="col-12 float-right">
+              <button type="submit" class="btn btn-success formBtns">Confirm Order</button>
+              <button type="button" class="btn btn-success formBtns"><a href="cart.html" >Cancel</a></button>
+            </div>
+          </form>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>

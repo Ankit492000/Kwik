@@ -1,0 +1,185 @@
+.custombdy{
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.customize{
+
+    float:left;
+    width: 370px;
+    height:440px;
+    background-color: #f9eeee;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.leftcustom{
+    width: 120px;
+    height:100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.leftcustom ul{
+    border: 1px solid black;
+    padding:0px;
+    margin-left:30px;
+    margin-top: 15px;
+}
+.leftcustom img{
+    height:80px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+.drawing-area{
+    position: absolute;
+    top: 60px;
+    left: 122px;
+    z-index: 10;
+    width: 200px;
+    height: 400px;
+}
+
+.canvas-container{
+    width: 200px; 
+    height: 300px; 
+    position: relative; 
+    user-select: none;
+}
+
+#prod-div{
+    width: 452px;
+    height: 548px;
+    position: relative;
+    background-color: #fff;
+    margin: 30px 0px 0px 50px;
+    float: left;
+}
+
+#canvas{
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    left: 0px; 
+    top: 0px; 
+    user-select: none; 
+    cursor: default;
+}
+*{
+    box-sizing: border-box;
+}
+
+.rightcustom{
+    width: 250px;
+    height:95.4%;
+    margin-top: 15px;
+    padding-top: 15px;
+    border: 1px solid black;
+    float: right;
+    display: none;
+}
+.rightcustom2{
+    width: 250px;
+    height:95.4%;
+    margin-top: 15px;
+    border: 1px solid black;
+    float: right;
+    display: none;
+    overflow-y: scroll;
+}
+.rightcustom2 img{
+    width: 48%;
+    height: 100px;
+    float: left;
+    margin: 1%;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}
+.rightcustom3{
+    width: 250px;
+    height:95.4%;
+    margin-top: 15px;
+    border: 1px solid black;
+    float: right;
+    display: none;
+}
+.rightcustom4{
+    width: 250px;
+    height:95.4%;
+    margin-top: 15px;
+    border: 1px solid black;
+    float: right;
+    display: none;
+}
+.rightcustom4 input{
+    display: block;
+    margin: 30px 0 0 17%;
+
+}
+.rightcustom4 label{
+    display: block;
+    margin: 50% 0 0 18%;
+}
+.rightcustom3 button{
+    display: block;
+    margin: 20px 0 0 30%;
+}
+.rightcustom3 label{
+    display: block;
+    margin: 50% 0 0 15%;
+}
+
+.colors{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    /* border: 2px solid black; */
+    float: left;
+    margin:4px;
+    cursor: pointer;
+}
+
+
+/*text css*/
+
+#c{
+    border:1px solid red;
+    top:22px;
+    left:0px;
+    height: 100%;
+    width: 99%;
+    background-color: blue;
+ /*webkit-transform resizes the canvas and all elements 
+-webkit-transform : scale(0.3); 
+-webkit-transform-origin : 0 0; 
+ */
+}
+
+.box {
+ float: left;
+ margin: 1em;
+}
+.after-box {
+ clear: left;
+}
+/*
+#c{
+ display: none;
+}
+*/
+
+.buynow{
+    position:absolute;
+    right:100px;
+    top:560px;
+
+}
+.buynow button{
+    display: block;
+    width: 150px;
+    height:30px;
+    background-color: orange;
+    border: 0;
+    border-radius: 4px;
+}

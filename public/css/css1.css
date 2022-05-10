@@ -1,0 +1,143 @@
+.topimg{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+.main{
+    margin: 2.5%;
+    min-height: 500px;
+    width: 95%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.filters{
+    height: 440px;
+    width: 220px;
+    /* border: 2px solid black; */
+    z-index: 9;
+    float: left;
+}
+.filters .head{
+    width: 100%;
+    height: 30px;
+    border-bottom:1px dashed grey ;
+    cursor: pointer;
+    
+}
+.filters h1{
+    float: left;
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.filters h1:nth-child(2)
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 4px;
+    
+}
+.colors{
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+    /* border: 2px solid black; */
+    float: left;
+    margin:4px;
+    cursor: pointer;
+}
+.colors:hover{
+    border: 1px solid darkblue;
+}
+.colordiv{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+    display: none;
+}
+.sizediv ul,.pricediv ul{
+    margin:10px;
+    padding: 0px;
+}
+.sizediv li,.pricediv li{
+    margin:5px;
+}
+.sizediv li:hover,.pricediv li:hover{
+    color: orange;
+}
+.sizediv,.pricediv{
+    height: 130px;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+    display: none;
+}
+.pricediv{
+    height: 80px;
+}
+
+/* products display */
+
+.pdisplay{
+    /* border: 1px solid black; */
+    width: 80%;
+    min-height: 500px;
+    background-color: #f9eeee;
+    /* margin-left: 230px; */
+    float: right;
+    cursor: pointer;
+}
+.pdisplay .prod{
+    width: 30%;
+    height: 320px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    float: left;
+    margin-bottom: 30px;
+}
+.pdisplay .prod:nth-child(3n+2){
+    margin: 0px 40px 30px 40px;
+    
+}
+.prod img{
+    height: 82%;
+    width: 98%;
+    /* border: 2px solid black; */
+    padding: 0px;
+    margin: 0px;
+    margin-left: 1%;
+    float: left;
+}
+.pdetails{
+    /* border: 2px solid black; */
+    width: 98%;
+    text-align: center;
+    margin: 0px;
+    margin-left: 1%;
+    padding-top: 5px;
+    background-color: #f2e8e8;
+}
+.pdetails:hover{
+    box-shadow: 0px 2px 2px rgb(34, 33, 33), 
+    -2px 2px 3px rgb(34, 33, 33), 2px 2px 3px rgb(34, 33, 33); 
+}
+.pdetails p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.pdetails ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.pdetails li{
+    display: inline;
+    padding-left: 5px;
+    /* border: 1px solid black; */
+}
+
+.oprice{
+    text-decoration: line-through;
+}
